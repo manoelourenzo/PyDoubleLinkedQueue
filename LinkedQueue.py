@@ -41,7 +41,7 @@ class Queue:
             item: Element removed from the front of the queue.
         """
         if not self.isEmpty():
-            removed_item = self.front.data
+            removed_item = self.front.item
             self.front = self.front.next
 
             # If the queue becomes empty after dequeue, update rear to None

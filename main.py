@@ -21,7 +21,7 @@ while True:
             print(f"{item} enqueued into the Circular Queue.")
 
         elif choice == "2":
-            if not queue.is_empty():
+            if not queue.isEmpty():
                 removed_item = queue.dequeue()
                 print(f"{removed_item} dequeued from the Circular Queue.")
             else:
